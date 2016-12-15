@@ -42,8 +42,8 @@ object Main extends App {
     .setCapEnabled(true)
 
     .addServer("irc.twitch.tv")
-    .setName("kaabibot")
-    .setServerPassword("")
+    .setName(name)
+    .setServerPassword(password)
     .addAutoJoinChannel("#cronokirby")
     .addListener(new Listener())
     .buildConfiguration()
