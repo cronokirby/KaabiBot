@@ -1,5 +1,4 @@
 package Bot
-//oauth:0ogqfaho7rh17o68ej21xi568te4r9
 //clientid: doagwgbcqub6tyno2jjhh5nfey59t9
 import org.pircbotx.{Configuration, PircBotX}
 import org.pircbotx.hooks.ListenerAdapter
@@ -44,7 +43,7 @@ object Main extends App {
 
     .addServer("irc.twitch.tv")
     .setName("kaabibot")
-    .setServerPassword("oauth:0ogqfaho7rh17o68ej21xi568te4r9")
+    .setServerPassword("")
     .addAutoJoinChannel("#cronokirby")
     .addListener(new Listener())
     .buildConfiguration()
